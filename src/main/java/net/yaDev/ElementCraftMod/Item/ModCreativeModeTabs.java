@@ -14,7 +14,7 @@ public class ModCreativeModeTabs
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ElementCraftMod.MODID);
 
-    public static final RegistryObject<CreativeModeTab> ElementCraft = CREATIVE_MODE_TABS.register("ElementCraft",
+    public static final RegistryObject<CreativeModeTab> ElementCraft = CREATIVE_MODE_TABS.register("elementcraftmod",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.Flood_Rod.get()))
                     .title(Component.translatable("creativetab.elementcraftmod"))
                     .displayItems((pParameters, pOutput) -> {
