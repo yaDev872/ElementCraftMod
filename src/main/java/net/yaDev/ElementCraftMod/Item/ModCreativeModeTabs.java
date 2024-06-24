@@ -16,7 +16,7 @@ public class ModCreativeModeTabs
 
     public static final RegistryObject<CreativeModeTab> ElementCraft = CREATIVE_MODE_TABS.register("ElementCraft",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.Flood_Rod.get()))
-                    .title(Component.translatable("creativetab.ElementCraft"))
+                    .title(Component.translatable("creativetab.elementcraftmod"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.Flood_Rod.get());
                         pOutput.accept(ModItems.Flood_Splash.get());
