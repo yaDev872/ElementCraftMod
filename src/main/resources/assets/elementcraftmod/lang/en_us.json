@@ -1,3 +1,5 @@
 {
-  "item.elementcraftmod.flood rod" : "Flood Rod"
+  "item.elementcraftmod.flood_rod" : "Flood Rod",
+  "item.elementcraftmod.flood_splash" : "Flood Splash",
+  "creativetab.ElementCraft" : "ElementCraft"
 }

@@ -12,6 +12,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.yaDev.ElementCraftMod.Item.ModCreativeModTabs;
 import net.yaDev.ElementCraftMod.Item.ModItems;
 import org.slf4j.Logger;
 
@@ -26,7 +27,9 @@ public class ElementCraftMod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModItems.ITEMS.register(modEventBus);
+        ModCreativeModTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -43,6 +46,7 @@ public class ElementCraftMod
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS)
         {
             event.accept(ModItems.Flood_Rod);
+            event.accept(ModItems.Flood_Splash);
         }
     }
 

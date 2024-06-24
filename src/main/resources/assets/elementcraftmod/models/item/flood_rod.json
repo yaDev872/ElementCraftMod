@@ -1,6 +1,6 @@
 {
   "parent":"item/generated",
   "textures" : {
-    "layer0": "elementcraftmod:item/flood rod"
+    "layer0": "elementcraftmod:item/flood_rod"
   }
 }
