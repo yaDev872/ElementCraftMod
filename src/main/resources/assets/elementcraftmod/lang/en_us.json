@@ -1,5 +1,10 @@
 {
   "item.elementcraftmod.flood_rod" : "Flood Rod",
   "item.elementcraftmod.flood_splash" : "Flood Splash",
-  "creativetab.ElementCraft" : "ElementCraft"
+
+  "block.elementcraftmod.aqua_block" : "Aqua Block",
+
+  "block.elementcraftmod.polished_prismarine" : "Polished Prismarine",
+
+  "creativetab.elementcraftmod" : "ElementCraft"
 }

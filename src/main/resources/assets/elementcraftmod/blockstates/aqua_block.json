@@ -1,0 +1,9 @@
+{
+  "variants":
+  {
+    "" :
+    {
+      "model": "elementcraftmod:block/aqua_block"
+    }
+  }
+}

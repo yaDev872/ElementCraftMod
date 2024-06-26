@@ -7,6 +7,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
+import net.yaDev.ElementCraftMod.Block.ModBlocks;
 import net.yaDev.ElementCraftMod.ElementCraftMod;
 
 public class ModCreativeModeTabs
@@ -20,6 +21,9 @@ public class ModCreativeModeTabs
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.Flood_Rod.get());
                         pOutput.accept(ModItems.Flood_Splash.get());
+
+                        pOutput.accept(ModBlocks.Aqua_Block.get());
+                        pOutput.accept(ModBlocks.Polished_Prismarine.get());
                     })
                     .build());
 
